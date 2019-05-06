@@ -19,6 +19,7 @@ public class Q55Solution {
         b2.right = b5;
         b3.right = b6;
         b5.left = b7;
-        System.out.println(TreeDepth.treeDepth(null));
+        System.out.println(TreeDepth.treeDepth(b1));
+        System.out.println(IsBalanced.isBalanced(b1));
     }
 }
